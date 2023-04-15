@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+}
+
+.nav-logo-lineas{
+    align-self: center;
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+
+main{
+    background-image: url(/Peliculas/portada/img-portada.jpg); 
+    background-size: cover;
+    height: 500px;
+}
+
+
+.botones{
+    background-color: transparent;
+}
+
+.pel-fam{
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+}
+
+.pel-fam img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;  
+}
+
+.pel-pop{
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));  
+}
+
+.pel-pop img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.pel-taq{
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));    
+}
+
+.pel-taq img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;  
+}
+
+.pel-rea {
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));   
+}
+
+.pel-rea img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;   
+}
+
+.pel-ver {
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: repeat(auto-fit, minmax(50px,1fr));    
+}
+
+.pel-ver img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;    
+} 
